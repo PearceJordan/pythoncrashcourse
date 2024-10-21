@@ -17,7 +17,7 @@ def hello(name):
 
 # An argument is the value that is sent to the function when you call it.
 
-hello("Dan")
+hello("Dan", "Sarah")
 
 # in this case, the argument is "Dan"
 

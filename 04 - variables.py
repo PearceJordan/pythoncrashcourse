@@ -2,10 +2,11 @@
 # a variable holds a value, then instead of using that value, the variable can be used to represent it.
 # a variable declaration involves writing the variable name on the left, equals sign in the middle, and the value on the right
 
-x = "Hello"
+1 = "Hello"
 y = "World"
+z = "y"
 
-print(x,y)
+print(x,y,z)
 
 # as you can see the x and y are the variable names, neither of which are surrounded by parenthesis. However, the value on the right does have parenthesis.
 

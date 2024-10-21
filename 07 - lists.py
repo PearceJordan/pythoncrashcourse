@@ -53,4 +53,5 @@ print(my_list)
 
 # BREAK IT
 # what happens if you try a number that is higher than the highest index of 5?
+print("Index 6 of my_list is:",my_list[6])
 # Why do you get the error?
