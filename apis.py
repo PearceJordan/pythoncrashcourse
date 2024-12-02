@@ -8,7 +8,7 @@ class Pokemon:
         self.weight = weight
         # hp, attack, defence, special attack, special defence, speed
         self.stats = stats
-        self.types = type
+        self.types = types
 
     def __str__(self):
         output_string = ""
@@ -35,7 +35,6 @@ for result in results[:10]:
 
     types = []
     for type in data["types"]:
-        type["type"]["name"]
         types.append(type["type"]["name"])
 
     pokemon = Pokemon(data["name"], data["id"], data["height"], data["weight"], stats, types)
